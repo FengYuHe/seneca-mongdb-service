@@ -1,0 +1,7 @@
+{
+  "mongodb": "mongodb://127.0.0.1/seneca-mongodb",
+  "senecaLogLevel": "error+",
+  "type": "http",
+  "role": "seneca-mongodb",
+  "senecaPort": 10088
+}
