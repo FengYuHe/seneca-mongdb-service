@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const Service = require('../services/model-service');
 const role = nconf.get('role');
-const refsCmd = ['create'];
+const refsCmd = ['create', 'update', 'delete', 'count', 'findById', 'find', 'exists'];
 
 module.exports = function register() {
   const models = fs.readdirSync('./models/');
